@@ -34,7 +34,7 @@ public class SelectEksempel {
      * select all rows in the warehouses table
      */
     public void selectAll(){
-        String sql = "SELECT * FROM opskrifter";
+        String sql = "SELECT * FROM Factbook";
         
         try (Connection conn = this.connect();
              Statement stmt  = conn.createStatement();

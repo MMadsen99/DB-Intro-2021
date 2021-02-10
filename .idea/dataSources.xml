@@ -30,5 +30,11 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Mobilepay.db" uuid="797688eb-94cb-4096-9be9-ee76cd68acc8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
+    </data-source>
   </component>
 </project>
